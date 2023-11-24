@@ -1,6 +1,6 @@
 <html><head>
    <title>Biomass Estimation</title>
-   <link rel="stylesheet" type="text/css" href="stylegeneral.css">
+   
   <script>document.getElementById('estimationForm').addEventListener('submit', function(event) {
       event.preventDefault();
        
@@ -21,7 +21,8 @@
          'Stock Carbon Per Hectare: ' + stockCarbonPerHectare.toFixed(2) + ' kg<br>' +
          'Emission Per Hectare: ' + emisionPerHectare.toFixed(2) + ' kg<br>' +
          'Carbon Value Per Hectare: $' + carbonValue.toFixed(2);
-     });</script><style>body {
+     });</script>
+     <style>body {
       font-family: Arial, sans-serif;
      }
      
@@ -46,7 +47,8 @@
      
      input[type="submit"]:hover {
       background-color: #45a049;
-     }</style></head>
+     }</style>
+     </head>
   <body>
    <h1>Carbon Calculator</h1>
    <h2>General Mangrove</h2>
@@ -62,6 +64,6 @@
       <input type="submit" value="Calculate">
    </form>
    <h2 id="results"></h2>
-   <script src="scriptgeneral.js"></script>
+   
   
   </body></html>
