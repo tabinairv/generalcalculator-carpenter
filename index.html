@@ -54,7 +54,7 @@
        
       var biomassPerTree = 0.2064 * Math.pow(diameter, 2.34);
       var biomassPerHectare = biomassPerTree * abundance*area;
-      var stockCarbonPerHectare = biomassPerHectare * 0.47 * abundance;
+      var stockCarbonPerHectare = biomassPerHectare * 0.47 ;
       var emisionPerHectare = stockCarbonPerHectare * 3.67;
       var carbonValue = emisionPerHectare * carbonPrice;
        
